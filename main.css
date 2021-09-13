@@ -171,6 +171,12 @@ h3{
         padding: 0;
     }
 
+    .input-num{
+        width: 11em;
+        height: 3em;
+        font-size: 1.125rem;
+    }
+
     .tip-btn{
         height: 2.5em;
         width: 8.5em;
@@ -184,37 +190,37 @@ h3{
     }
 
     .info-section{
-        width: 20.5em;
-        margin-left: 2em;
+        width: 13em;
+        margin-left: 1.5em;
         margin-right: 2em;
         margin-bottom: 2em;
         padding: 1em;
     }
     
     .tip-amount{
-        margin: 1.5em 2em 0 2em;
+        margin: 1.5em 2em 0 0;
         display: flex;
     }
     
     .tip-text{
-        margin-right: 4em;
+        margin-right: 2.5em;
     }
     
     .bill-amount{
-        margin: 4em 2em 0 2em;
+        margin: 2em 2em 0 0em;
         display: flex;
     }
     
     .bill-text{
-        margin-right: 7em;
+        margin-right: 4.5em;
     }
     
     .reset{
         border-radius: 5px;
-        padding: .5em 4.5em;
+        padding: .5em 3.5em;
         margin-top: 2.65em;
         margin-bottom: .5em;
-        margin-left: 1.5em;
+        margin-left: -.125em;
         font-size: 1.2rem;;
     }
 }
