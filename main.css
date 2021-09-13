@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BFDADD;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    border: 0.5px solid rgb(230, 220, 220);
+    margin-top: 4%;
+    top: 7.8125em;
+    left: 176px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F4F8F9;
+    box-shadow: 5px 5px 11px rgb(58, 56, 56) , -2px -2px 3px  #fff;
+}
+
+label{
+    font-size: 1.125rem;
+    color: #29494C;
+    line-height: 1.75em;
+}
+
+h1{
+    font-size: 2.5rem;
+    color: #74C3AF;
+}
+
+h2{
+    font-size: 1.5rem;
+    line-height: 1.3125em;
+    color: #FFFFFF;
+}
+
+h3{
+    font-size: 0.75rem;
+    color: #799DA2;
+}
+
+.inputs-section{
+    margin: 2em;
+}
+
+.input{
+    margin-bottom:  2.5625em;
+}
+
+.input-num{
+    width: 21.5625em;
+    height: 3.125em;
+    border: none;
+    background-color: #DEEEEE;
+    font-size: 1.125rem;
+    color: #29494C;
+}
+
+.tip-btn{
+    height: 2.12em;
+    width: 4.65em;
+    margin-right: .5em;
+    margin-bottom: .5em;
+    border: none;
+    border-radius: 5px;
+    background-color: #29494C;
+    font-size: 1.5625rem;
+    color: #fff;
+}
+
+.tip-buttons :hover{
+    background-color: #567072;
+}
+
+#custom{
+    background-color: #F4F8FB;
+    border: 1px solid #29494C;
+    color: #29494C;
+}
+
+#costum :hover{
+    background-color: #8998a3;
+}
+
+.info-section{
+    background-color: #29494C;
+    border-radius: 20px;
+    margin: 2em 2em 2em 0;
+}
+
+.tip-amount{
+    margin: 1.5em 2em 0 2em;
+    display: flex;
+}
+
+.tip-text{
+    margin-right: 5.125em;
+}
+
+.bill-amount{
+    margin: 4em 2em 0 2em;
+    display: flex;
+}
+
+.bill-text{
+    margin-right: 9.9em;
+}
+
+.reset{
+    border: none;
+    border-radius: 5px;
+    padding: .5em 6.5em;
+    margin-top: 6.65em;
+    margin-bottom: 1.5em;
+    margin-left: 1.5em;
+    background-color: #3D686C;
+    font-size: 1.25rem;
+    color: #29494C;
+    cursor: not-allowed;
+}
+
+@media (max-width: 900px){
+
+    label{
+        font-size: 1rem;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+    
+    h2{
+        font-size: 1rem;
+    }
+    
+    h3{
+        font-size: 0.5rem;
+    }
+
+    .input-num{
+        width: 20em;
+        height: 3em;
+        font-size: 1rem;
+    }
+
+    .tip-btn{
+        height: 2.12em;
+        width: 4.65em;
+        margin-right: .5em;
+        margin-bottom: .5em;
+        font-size: 1rem;
+    }
+    
+    .reset{
+        margin-top: 5.5em;
+        margin-bottom: 1.5em;
+        font-size: 1.12rem;
+    }
+}
+
+@media (max-width: 750px){
+
+    main{
+        width: 79%;
+        margin-top: 4%;
+        display: block;
+        margin: 1em;
+        padding: 0;
+    }
+
+    .tip-btn{
+        height: 2.5em;
+        width: 8.5em;
+        margin-right: .5em;
+        margin-bottom: .5em;
+        font-size: 1.125rem;
+    }
+
+    .tip-buttons{
+        display:inline;
+    }
+
+    .info-section{
+        width: 20.5em;
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-bottom: 2em;
+        padding: 1em;
+    }
+    
+    .tip-amount{
+        margin: 1.5em 2em 0 2em;
+        display: flex;
+    }
+    
+    .tip-text{
+        margin-right: 4em;
+    }
+    
+    .bill-amount{
+        margin: 4em 2em 0 2em;
+        display: flex;
+    }
+    
+    .bill-text{
+        margin-right: 7em;
+    }
+    
+    .reset{
+        border-radius: 5px;
+        padding: .5em 4.5em;
+        margin-top: 2.65em;
+        margin-bottom: .5em;
+        margin-left: 1.5em;
+        font-size: 1.2rem;;
+    }
+}
