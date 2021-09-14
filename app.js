@@ -17,11 +17,18 @@
         //--------------------------------------------------------------------------------------------------------------
         /*FUNCTIONS*/
 
+        function voidActivateReset(){
+            btnReset.disabled = false;
+            btnReset.style.backgroundColor = "#B6E7DE";
+        }
+
         numBillInput.addEventListener('input', () => {
             if (numPeopleInput.value == ""){
                 strBillDivided.innerText = "$" + (numBillInput.value);
+                voidActivateReset();
             } else {
                 strBillDivided.innerText = "$" + (numBillInput.value / numPeopleInput.value).toFixed(2);
+                voidActivateReset();
             }
         });
 
@@ -47,6 +54,15 @@
                 })
             })
         })();
+
+        btnReset.addEventListener('click', () => {
+            strBillDivided.innerText = "$" + (numBillInput.value * 0);
+            strTipTotal.innerText = "$0.00";
+            numBillInput.value = '$0';
+            numPeopleInput.value = 1;
+            btnReset.disabled = true;
+            btnReset.style.backgroundColor = "#3D686C";
+        })
 
 
         /*TASK */
