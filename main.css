@@ -164,7 +164,7 @@ h3{
 @media (max-width: 750px){
 
     main{
-        width: 82%;
+        width: 93%;
         margin-top: 4%;
         display: block;
         margin: 1em;
@@ -172,14 +172,14 @@ h3{
     }
 
     .input-num{
-        width: 13.4em;
+        width: 105%;
         height: 3em;
         font-size: 1.125rem;
     }
 
     .tip-btn{
         height: 2.5em;
-        width: 13.4em;
+        width: 105%;
         margin-right: .5em;
         margin-bottom: .5em;
         font-size: 1.125rem;
@@ -191,8 +191,8 @@ h3{
 
     .info-section{
         width: 16em;
-        margin-left: 1.5em;
-        margin-right: 2em;
+        margin-left: 1.125em;
+        margin-right: 1.125em;
         margin-bottom: 2em;
         padding: 1em;
     }

@@ -26,8 +26,8 @@
         });
 
         numPeopleInput.addEventListener('input', () =>{
-            if (numPeopleInput == ""){
-                strBillDivided.innerText = "$" + (numBillInput.value);
+            if (numPeopleInput.value == ""){
+                strBillDivided.innerText = "$" + (numBillInput.value * 1);
             } else {
                 strBillDivided.innerText = "$" + (numBillInput.value / numPeopleInput.value).toFixed(2);
             }
@@ -48,11 +48,6 @@
             })
         })();
 
-        (function voidClearScreen(){
-            if (numBillInput.value != "" || numPeopleInput.value !== ""){
-                btnReset.disabled = false;
-            }
-        })
 
         /*TASK */
         //--------------------------------------------------------------------------------------------------------------
